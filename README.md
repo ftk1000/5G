@@ -2,6 +2,20 @@
 
 LTE
 
+[2016: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
+
+|---   |---     |---         |---    |---       | ---        |
+| ch BW| usable |    UBW in  | UBW   | Msmt     | Wnd sz in  |
+| (MHz)|BW (UBW)| SubCarriers| in RBs| Window Sz| rater Freqs|
+|---   |---     |---         |---    |---       | ---        |
+|  1.4 |  1.08  |   72       |   6   |  1.1     |   11       |
+|  3   |   2.7  |   180      |  15   |  2.7     |   27       |
+|  5   | 4.5    |   300      |  25   |  4.5     |   45       |
+|  10  |   9    |   600      |  50   |  9.1     |   91       |
+|  15  | 13.5   |   900      |  75   |  13.5    |  135       |
+|  20  | 18     |  1200      | 100   | 18.1     |  181       |
+|---   |---     |---         |---    |---       | ---        |
+
     RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
     RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms
     RB = 84 REs

@@ -4,7 +4,8 @@ LTE
 
 [2016: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
 
-|---   |---     |---         |---    |---       | ---        |
+
+| ---  |---     |---         |---    |---       | ---        |
 | ch BW| usable |    UBW in  | UBW   | Msmt     | Wnd sz in  |
 | (MHz)|BW (UBW)| SubCarriers| in RBs| Window Sz| rater Freqs|
 |---   |---     |---         |---    |---       | ---        |

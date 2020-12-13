@@ -6,6 +6,8 @@
 
 [2016: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
 
+[2017: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
+
 []()<br>
 
 ## LTE
@@ -30,19 +32,7 @@
 
 ## Power Control
 
-[sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
-[Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>
-
-    Downlink Power Control
-        In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
-        The same Power Spectral Density (PSD) is used on all DL channels. 
-        For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
-        In case of PSD, it is normalized to one RB. Note: There are certain channels in DL, where power is varied accordingly. 
-    UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
-        limit intracell and intercell interference
-        reduce UE power consumption
-    Usually in UL PC is done in two ways: Conventional Power Control, and Fractional Power control.        
-        
+### DL
 [2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
 [2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
 
@@ -70,8 +60,25 @@
         min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
     
     
+### UL
+
+[sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
+[Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>
+
+    Downlink Power Control
+        In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
+        The same Power Spectral Density (PSD) is used on all DL channels. 
+        For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
+        In case of PSD, it is normalized to one RB. Note: There are certain channels in DL, where power is varied accordingly. 
+    UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
+        limit intracell and intercell interference
+        reduce UE power consumption
+    Usually in UL PC is done in two ways: Conventional Power Control, and Fractional Power control.        
     
-[2017: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
+[Bilal Muhammad: Closed loop power control for LTE uplink (see p 13 for LTE PUSCH power control) ](https://www.diva-portal.org/smash/get/diva2:831452/FULLTEXT01.pdf)<br>
+[3GPP TS 36.213 Rel 14 - see pp 14-15 for detailed formula on LTE UL PC](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/14.06.00_60/ts_136213v140600p.pdf)<br>
+[3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
+[]()<br>
 []()<br>
 
 

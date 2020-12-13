@@ -2,7 +2,21 @@
 
 LTE
 
+    RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
+    RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms
+    RB = 84 REs
+
 [sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
+[2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
+[2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
+
+    4/84 REs are used for Reference Signal (==> RSRP)
+    REs are carried in two symbols: 0 and 4 (or 1st and 5th)
+    
+    
+[]()<br>
+[]()<br>
+
 
 
 5G  

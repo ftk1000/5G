@@ -1,6 +1,6 @@
 2020.03.29
 
-OFDMA/OFDMA/SC-FDMA
+## OFDMA/OFDMA/SC-FDMA
 
 [2020: Iain: OFDM Waveforms](https://www.youtube.com/watch?v=F6B4Kyj2rLw)<br>
 
@@ -8,7 +8,7 @@ OFDMA/OFDMA/SC-FDMA
 
 []()<br>
 
-LTE
+## LTE
 
 
 
@@ -25,7 +25,21 @@ LTE
     RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms
     RB = 84 REs
 
+## Power Control
+
 [sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
+[Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>
+
+    Downlink Power Control
+        In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
+        The same Power Spectral Density (PSD) is used on all DL channels. 
+        For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
+        In case of PSD, it is normalized to one resource block. Note: There are certain channels in DL, where power is varied accordingly. 
+    UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
+        limit intracell and intercell interference
+        reduce UE power consumption
+    Usually in UL PC is done in two ways: Conventional Power Control, and Fractional Power control.        
+        
 [2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
 [2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
 
@@ -59,7 +73,7 @@ LTE
 
 
 
-5G  
+## 5G  
 
 [5G Network Architecture White Paper v1.0 12-08-2018](http://www.gtigroup.org/d/file/Resources/rep/2018-02-22/06608ce6dbe32673ac1611359e11f794.pdf)
 

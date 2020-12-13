@@ -13,14 +13,13 @@ LTE
 
 
 | ch BW    | usable BW (UBW)| UBW in SubCarriers | UBW in RBs   | Msmt Window Sz     | Wnd sz in raster Freqs  |
-|---       |---             |---                 |---           |---                 | ---                     |
+|:---:     |:---:           |:---:               |:---:         |:---:               | :---:                   |
 |  1.4 MHz |1.08  MHz|   72       |   6   |  1.1 MHz|   11       |
 |  3  MHz  | 2.7  MHz|   180      |  15   |  2.7 MHz|   27       |
 |  5  MHz  | 4.5  MHz|   300      |  25   |  4.5 MHz|   45       |
 |  10  MHz | 9  MHz  |   600      |  50   |  9.1 MHz|   91       |
 |  15  MHz |13.5  MHz|   900      |  75   | 13.5 MHz|  135       |
 |  20  MHz | 18   MHz|  1200      | 100   | 18.1 MHz|  181       |
-|---   |---     |---         |---    |---       | ---        |
 
     RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
     RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms

@@ -1,11 +1,17 @@
 2020.03.29
 
-LTE
+OFDMA/OFDMA/SC-FDMA
+
+[2020: Iain: OFDM Waveforms](https://www.youtube.com/watch?v=F6B4Kyj2rLw)<br>
 
 [2016: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
 
+[]()<br>
 
-| ---  |---     |---         |---    |---       | ---        |
+LTE
+
+
+|----- |--------|------------|-------|----------|---        |
 | ch BW| usable |    UBW in  | UBW   | Msmt     | Wnd sz in  |
 | (MHz)|BW (UBW)| SubCarriers| in RBs| Window Sz| rater Freqs|
 |---   |---     |---         |---    |---       | ---        |

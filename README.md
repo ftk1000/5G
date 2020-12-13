@@ -13,18 +13,29 @@ LTE
     4/84 REs are used for Reference Signal (==> RSRP)
         Cell Reference Singals (CRS) are carried in two symbols: 0 and 4 (or 1st and 5th) and
         CRS subcarriers are determined by Physycal Layer Cell Idenitty (PCI) of the cell (UE figures PCI from PSS and SSS)
+        
     UE measures RSRP = avg power in watts received by a single Reference Signal (RS) RE
         RSRP measures only RS power and excludes all noise and interference: RSRP = {1/K}\Sum_{k=1}^K P_{rs,k}
         P_{rs,k} is the estimated RX power (in W) by the k-th RS RE
+        
     Typically CRS (REs with RS) are TXed at much higher power than other REs
         max RSRP ~ max input to UE = -25 dBm = 0.0032 mW
             in 1.4 MHz BW w/ 6 RBs (72 REs) max RSRP = -44 dBm
         min RSRP  = -140 dBm (has 6 dBm margin over the min RX power @ UE)
+        
     Knowledge of absolute RSRP allows the UE to calculate DL PL
     
+    RRSI (Received Signal Strength Indicator) = measured only in OFDM symbols containing the RSs
+        Example: in 1.4 MHz case (w/ 6 RBs), RSSI is measured and added over all 6 RBs for the 1st symbol (or the 5th symbol)
+        
+    RSRQ (Reference Signal Received Quality) = RSRP/(RSSI/N_{RB})
+        RSRQ is important for scheduling for UE at cell edge and Hand-over decisions
+        max RSRQ = -3 dB (one RS RE has 50% of the total power per symbol)
+        min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
     
     
-[]()<br>
+    
+[2017: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
 []()<br>
 
 

@@ -10,6 +10,12 @@
 
 ## LTE
 
+    RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
+    RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms = log2(M) bits/SubCarrier/Symbol
+    RB = 84 REs = 84*log2(M) bits/RB 
+        If [M=64 QAM, then 1 RB can transmit at most 84*log2(64) = 84*6 = 504 bits/(0.5 sec)/180 KHz = 1008 bps/180KHz](https://www.researchgate.net/post/How_many_bits_a_user_can_get_in_each_allocation_in_LTE_network#:~:text=The%20number%20of%20bits%20in,at%20most%2012x7x6%3D504%20bits.)
+          If Channel BW=10 MHz, then 50 RBs can transmit at most 50*1008 = 50400 = 50.4 Mbps/10 MHz
+
 
 
 | ch BW    | usable BW (UBW)| UBW in SubCarriers | UBW in RBs   | Msmt Window Sz     | Wnd sz in raster Freqs  |
@@ -21,9 +27,6 @@
 |  15  MHz |13.5  MHz|   900      |  75   | 13.5 MHz|  135       |
 |  20  MHz | 18   MHz|  1200      | 100   | 18.1 MHz|  181       |
 
-    RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
-    RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms
-    RB = 84 REs
 
 ## Power Control
 

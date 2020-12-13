@@ -12,8 +12,7 @@ LTE
 
 
 |----- |--------|------------|-------|----------|---        |
-| ch BW| usable |    UBW in  | UBW   | Msmt     | Wnd sz in  |
-| (MHz)|BW (UBW)| SubCarriers| in RBs| Window Sz| rater Freqs|
+| ch BW (MHz)| usable BW (UBW)| UBW in SubCarriers | UBW in RBs   | Msmt Window Sz     | Wnd sz in raster Freqs  |
 |---   |---     |---         |---    |---       | ---        |
 |  1.4 |  1.08  |   72       |   6   |  1.1     |   11       |
 |  3   |   2.7  |   180      |  15   |  2.7     |   27       |

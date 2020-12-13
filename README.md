@@ -34,7 +34,7 @@
         In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
         The same Power Spectral Density (PSD) is used on all DL channels. 
         For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
-        In case of PSD, it is normalized to one resource block. Note: There are certain channels in DL, where power is varied accordingly. 
+        In case of PSD, it is normalized to one RB. Note: There are certain channels in DL, where power is varied accordingly. 
     UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
         limit intracell and intercell interference
         reduce UE power consumption

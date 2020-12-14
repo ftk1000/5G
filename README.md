@@ -9,6 +9,22 @@
 [2017: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
 
 []()<br>
+[]()<br>
+[]()<br>
+
+
+## Path Loss, Propagation Formula
+
+[3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
+[2017: Report ITU-R SM.2028-2: Monte Carlo simulation methodology for the use in sharing and compatibility studies between different radio services or systems](https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-SM.2028-2-2017-PDF-E.pdf)<br>
+[]()<br>
+
+## Phy Abstraction
+
+[2018: PHY Abstraction Techniques for IEEE 802.11p and LTE-V2V: Applications and Analysis, DOI: 10.1109/GLOCOMW.2018.8644470](https://www.researchgate.net/publication/330222535_PHY_Abstraction_Techniques_for_IEEE_80211p_and_LTE-V2V_Applications_and_Analysis)<br>
+[]()<br>
+[]()<br>
+
 
 ## LTE
 
@@ -77,7 +93,6 @@
     
 [Bilal Muhammad: Closed loop power control for LTE uplink (see p 13 for LTE PUSCH power control) ](https://www.diva-portal.org/smash/get/diva2:831452/FULLTEXT01.pdf)<br>
 [3GPP TS 36.213 Rel 14 - see pp 14-15 for detailed formula on LTE UL PC](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/14.06.00_60/ts_136213v140600p.pdf)<br>
-[3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
 []()<br>
 []()<br>
 
@@ -99,8 +114,4 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
 ------  [REGIONS](https://location.services.mozilla.com/stats/regions)<br>
 []()<br>
 []()<br>
-[]()<br>
-[]()<br>
-[]()<br>
-[]()<br>
-[]()<br>
+

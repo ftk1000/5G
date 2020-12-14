@@ -15,10 +15,10 @@
 
 ## Path Loss, Propagation Formula
 
-[3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
-[2017: Report ITU-R SM.2028-2: Monte Carlo simulation methodology for the use in sharing and compatibility studies between different radio services or systems](https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-SM.2028-2-2017-PDF-E.pdf)<br>
-[MATLAB propagation-channel-models](https://www.mathworks.com/help/lte/ug/propagation-channel-models.html)<br>
-[2019: IMPROVED PROPAGATION MODELS FOR LTE PATH LOSS PREDICTION IN URBAN & SUBURBAN GHANA](https://arxiv.org/ftp/arxiv/papers/2001/2001.05227.pdf)<br>
+* [3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
+* [2017: Report ITU-R SM.2028-2: Monte Carlo simulation methodology for the use in sharing and compatibility studies between different radio services or systems](https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-SM.2028-2-2017-PDF-E.pdf)<br>
+* [MATLAB propagation-channel-models](https://www.mathworks.com/help/lte/ug/propagation-channel-models.html)<br>
+* [2019: IMPROVED PROPAGATION MODELS FOR LTE PATH LOSS PREDICTION IN URBAN & SUBURBAN GHANA](https://arxiv.org/ftp/arxiv/papers/2001/2001.05227.pdf)<br>
 []()<br>
 []()<br>
 []()<br>

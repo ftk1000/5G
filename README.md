@@ -17,11 +17,20 @@
 
 [3GPP TR 25.996. Universal Mobile Telecommunications System (UMTS); Spacial channel model for - See p. 17 for modified COST 231 Hata Urban Propagation model.](https://www.etsi.org/deliver/etsi_tr/125900_125999/125996/06.01.00_60/tr_125996v060100p.pdf)<br>
 [2017: Report ITU-R SM.2028-2: Monte Carlo simulation methodology for the use in sharing and compatibility studies between different radio services or systems](https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-SM.2028-2-2017-PDF-E.pdf)<br>
+[MATLAB propagation-channel-models](https://www.mathworks.com/help/lte/ug/propagation-channel-models.html)<br>
+[]()<br>
+[]()<br>
+[]()<br>
+[]()<br>
+[]()<br>
 []()<br>
 
 ## Phy Abstraction
 
 [2018: PHY Abstraction Techniques for IEEE 802.11p and LTE-V2V: Applications and Analysis, DOI: 10.1109/GLOCOMW.2018.8644470](https://www.researchgate.net/publication/330222535_PHY_Abstraction_Techniques_for_IEEE_80211p_and_LTE-V2V_Applications_and_Analysis)<br>
+[]()<br>
+[]()<br>
+[]()<br>
 []()<br>
 []()<br>
 
@@ -46,9 +55,8 @@
 |  20  MHz | 18   MHz|  1200      | 100   | 18.1 MHz|  181       |
 
 
-## Power Control
+## DL Power Control
 
-### DL
 [2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
 [2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
 
@@ -76,7 +84,7 @@
         min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
     
     
-### UL
+## UL Power Control
 
 [sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
 [Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>

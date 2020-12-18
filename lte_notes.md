@@ -55,6 +55,11 @@
 |  20  MHz | 18   MHz|  1200      | 100   | 18.1 MHz|  181       |
 
 
+## RSRP, RSSI, SRRQ, CQI
+[2012: dave mcnally: RSRQ Calculator.avi](https://youtu.be/FVgLUBVjKu4)<br>
+See section 5.5.4 of 36.331 for LTE or 38.331 for NR to see all events that can be configured to the UE to trigger a measurement report <br>
+[]()<br>
+
 ## DL Power Control
 
 [2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>

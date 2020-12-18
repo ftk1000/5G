@@ -57,12 +57,8 @@
 
 ## RSRP, RSSI, SRRQ, CQI
 [2012: dave mcnally: RSRQ Calculator.avi](https://youtu.be/FVgLUBVjKu4)<br>
-See section 5.5.4 of 36.331 for LTE or 38.331 for NR to see all events that can be configured to the UE to trigger a measurement report <br>
-[]()<br>
-
-## DL Power Control
-
-[2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
+See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or 
+[38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
 [2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
 
     4/84 REs are used for Reference Signal (==> RSRP)
@@ -87,7 +83,13 @@ See section 5.5.4 of 36.331 for LTE or 38.331 for NR to see all events that can 
         RSRQ is important for scheduling for UE at cell edge and Hand-over decisions
         max RSRQ = -3 dB (one RS RE has 50% of the total power per symbol)
         min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
-    
+
+[]()<br>
+
+## DL Power Control
+
+[2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
+
     
 ## UL Power Control
 

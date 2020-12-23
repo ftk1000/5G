@@ -56,6 +56,7 @@
 
 
 ## RSRP, RSSI, SRRQ, CQI
+
 [2012: dave mcnally: RSRQ Calculator.avi](https://youtu.be/FVgLUBVjKu4)<br>
 See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or 
 [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
@@ -84,6 +85,32 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
         max RSRQ = -3 dB (one RS RE has 50% of the total power per symbol)
         min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
 
+* [LTE 4-bit CQI Table 5.2.2..1-2 in Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
+
+       7.2.3 Channel Quality Indicator (CQI) definition
+       The CQI indices and their interpretations are given in Table 7.2.3-1, Table 7.2.3-5, Table 7.2.3-6 for reporting CQI based on QPSK, 16QAM and 64QAM. 
+       The CQI indices and their interpretations are given in Table 7.2.3-2 for reporting CQI based on QPSK, 16QAM, 64QAM and 256QAM. 
+       The CQI indices and their interpretations are given in Table 7.2.3-3 for reporting CQI based on QPSK and 16QAM. 
+       The CQI indices and their interpretations are given in Table 7.2.3-4 for reporting CQI based on QPSK, 16QAM, 64QAM, 256QAM, and 1024QAM. 
+       
+       the UE shall derive for each CQI value reported in uplink subframe/slot/subslot n the highest CQI index between 1 and 15 
+       in Table 7.2.3-1, Table 7.2.3-2 or Table 7.2.3-4     ( Table 7.2.3-3, Table 7.2.3-5 or Table 7.2.3-6 ) 
+       if a single PDSCH transport block with a combination of modulation scheme 
+       and transport block size corresponding to the CQI index, and occupying a group of downlink physical resource blocks termed 
+       the CSI reference resource, could be received with a transport block error probability not exceeding 0.1.
+       
+![Tab;e 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
+
+       5 Power control
+            Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
+            denotes the energy prior to CP insertion. The term resource element energy also denotes the average energy taken over
+            all constellation points for the modulation scheme applied. Uplink power control determines the average power over a
+            SC-FDMA symbol in which the physical channel is transmitted.
+          5.1 Uplink power control 
+            5.1.4.1 Dual connectivity power control Mode 1 
+            5.1.4.2 Dual connectivity power control Mode 2
+       
+* []()<br>
 []()<br>
 
 ## DL Power Control

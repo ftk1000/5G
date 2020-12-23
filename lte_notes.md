@@ -109,10 +109,10 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 ## LTE Measurement Reporting
 
 * [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
-*[ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
-*[4gmobiletech: LTE Measurement Events](https://www.4gmobiletech.com/measurement-events)<br>
-*[blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
-*[]()<br>
+* [ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
+* [4gmobiletech: LTE Measurement Events](https://www.4gmobiletech.com/measurement-events)<br>
+* [blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
+* []()<br>
 
 
 

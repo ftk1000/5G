@@ -106,14 +106,6 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
        
 ![Table 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
 
-       5 Power control
-            Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
-            denotes the energy prior to CP insertion. The term resource element energy also denotes the average energy taken over
-            all constellation points for the modulation scheme applied. Uplink power control determines the average power over a
-            SC-FDMA symbol in which the physical channel is transmitted.
-          5.1 Uplink power control 
-            5.1.4.1 Dual connectivity power control Mode 1 
-            5.1.4.2 Dual connectivity power control Mode 2
 
 # NR 5G CQI
 
@@ -143,6 +135,18 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 ![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.214_Rel15_T52212_4bCQI.PNG)             
 
 []()<br>
+# LTE Power Control: 
+* [See Ch.5 of Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
+
+       5 Power control
+            Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
+            denotes the energy prior to CP insertion. The term resource element energy also denotes the average energy taken over
+            all constellation points for the modulation scheme applied. Uplink power control determines the average power over a
+            SC-FDMA symbol in which the physical channel is transmitted.
+          5.1 Uplink power control 
+            5.1.4.1 Dual connectivity power control Mode 1 
+            5.1.4.2 Dual connectivity power control Mode 2
+
 
 ## DL Power Control
 

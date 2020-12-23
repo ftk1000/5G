@@ -35,7 +35,7 @@
 []()<br>
 
 
-## LTE
+# LTE
 
     RB = (12 subcarriers=180 KHz) x (7 symbols = 1 Slot = 0.5 msec)   =   180 kHz x 0.5 msec
     RE = 1 subcarrier x 1 symbol = 15 kHz x (0.5/7=0.0714) ms = log2(M) bits/SubCarrier/Symbol
@@ -55,12 +55,11 @@
 |  20  MHz | 18   MHz|  1200      | 100   | 18.1 MHz|  181       |
 
 
-## RSRP, RSSI, SRRQ, CQI
+## RSRP, RSSI, SRRQ, CQI Measurements
 
-[2012: dave mcnally: RSRQ Calculator.avi](https://youtu.be/FVgLUBVjKu4)<br>
+* [2012: dave mcnally: RSRQ Calculator.avi](https://youtu.be/FVgLUBVjKu4)<br>
 See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or 
-[38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
-[2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
+* [2017: Irfan Ali: LTE Radio Primer Part 7: DL Cell Reference Signals, RSRP & RSRQ](https://www.youtube.com/watch?v=XAtQq7zHvQ0)<br>
 
     4/84 REs are used for Reference Signal (==> RSRP)
         Cell Reference Singals (CRS) are carried in two symbols: 0 and 4 (or 1st and 5th) and
@@ -105,6 +104,17 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
        the CSI reference resource, could be received with a transport block error probability not exceeding 0.1.
        
 ![Table 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
+
+
+## LTE Measurement Reporting
+
+* [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
+*[ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
+*[4gmobiletech: LTE Measurement Events](https://www.4gmobiletech.com/measurement-events)<br>
+*[blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
+*[]()<br>
+
+
 
 
 # LTE Power Control: 

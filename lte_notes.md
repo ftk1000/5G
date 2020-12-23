@@ -2,11 +2,11 @@
 
 ## OFDMA/OFDMA/SC-FDMA
 
-[2020: Iain: OFDM Waveforms](https://www.youtube.com/watch?v=F6B4Kyj2rLw)<br>
+[2020: YT: Iain: OFDM Waveforms](https://www.youtube.com/watch?v=F6B4Kyj2rLw)<br>
 
-[2016: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
+[2016: YT: 2.3 - OFDM/ OFDMA IN 4G LTE - PART 1](https://www.youtube.com/watch?v=rKy5dOl3Et4)<br>
 
-[2017: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
+[2017: YT: Irfan Ali: LTE Radio Primer Part 8: DL Summary & References  -  OFDM in Multicolor](https://youtu.be/AdwWBls_VW0?t=50)<br>
 
 []()<br>
 []()<br>
@@ -107,6 +107,58 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 ![Table 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
 
 
+# LTE Power Control: 
+* [See Ch.5 of Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
+
+       5 Power control
+            Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
+            denotes the energy prior to CP insertion. The term resource element energy also denotes the average energy taken over
+            all constellation points for the modulation scheme applied. Uplink power control determines the average power over a
+            SC-FDMA symbol in which the physical channel is transmitted.
+          5.1 Uplink power control 
+            5.1.4.1 Dual connectivity power control Mode 1 
+            5.1.4.2 Dual connectivity power control Mode 2
+
+
+### DL Power Control
+
+* [2018: YT: Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
+
+    
+### UL Power Control
+
+[sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
+[Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>
+
+    Downlink Power Control
+        In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
+        The same Power Spectral Density (PSD) is used on all DL channels. 
+        For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
+        In case of PSD, it is normalized to one RB. Note: There are certain channels in DL, where power is varied accordingly. 
+    UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
+        limit intracell and intercell interference
+        reduce UE power consumption
+    Usually in UL PC is done in two ways: Conventional Power Control, and Fractional Power control.        
+    
+[Bilal Muhammad: Closed loop power control for LTE uplink (see p 13 for LTE PUSCH power control) ](https://www.diva-portal.org/smash/get/diva2:831452/FULLTEXT01.pdf)<br>
+[3GPP TS 36.213 Rel 14 - see pp 14-15 for detailed formula on LTE UL PC](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/14.06.00_60/ts_136213v140600p.pdf)<br>
+[]()<br>
+[]()<br>
+
+
+
+# NR 5G  
+
+[5G NR frequency bands (wiki)](https://en.wikipedia.org/wiki/5G_NR_frequency_bands)<br>
+
+[5G Network Architecture White Paper v1.0 12-08-2018](http://www.gtigroup.org/d/file/Resources/rep/2018-02-22/06608ce6dbe32673ac1611359e11f794.pdf)
+
+[5G K-Sim](http://5gopenplatform.org)
+
+[5G K-SimLink](http://5gopenplatform.org/main/main.php?categoryid=06&menuid=01&groupid=00)
+
+[5G tutorial from MathWorks](http://5gopenplatform.org/main/main.php?categoryid=06&menuid=01&groupid=00)
+
 # NR 5G CQI
 
 
@@ -135,58 +187,6 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 ![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.214_Rel15_T52212_4bCQI.PNG)             
 
 []()<br>
-# LTE Power Control: 
-* [See Ch.5 of Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
-
-       5 Power control
-            Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
-            denotes the energy prior to CP insertion. The term resource element energy also denotes the average energy taken over
-            all constellation points for the modulation scheme applied. Uplink power control determines the average power over a
-            SC-FDMA symbol in which the physical channel is transmitted.
-          5.1 Uplink power control 
-            5.1.4.1 Dual connectivity power control Mode 1 
-            5.1.4.2 Dual connectivity power control Mode 2
-
-
-## DL Power Control
-
-[2018:  Hassan Atique: LTE DL Power Allocation](https://www.youtube.com/watch?v=gwJU5TvMivk)<br>
-
-    
-## UL Power Control
-
-[sharetechnote: LTE Power Control](https://www.sharetechnote.com/html/PowerControl_LTE.html)<br>
-[Blog: http://www.techtrained.com/lte-power-control/](http://www.techtrained.com/lte-power-control/)<br>
-
-    Downlink Power Control
-        In case of 4G DL, rather than varying power in the Downlink, full power is distributed uniformly over the whole bandwidth. 
-        The same Power Spectral Density (PSD) is used on all DL channels. 
-        For example, PDSCH, PHICH, PDCCH etc. PSD is the power of a signal divided by Bandwidth (PSD = Power / Bandwidth). 
-        In case of PSD, it is normalized to one RB. Note: There are certain channels in DL, where power is varied accordingly. 
-    UL PC - In contrast to DL, in Uplink in LTE, Power control is used mainly for the following two reasons.
-        limit intracell and intercell interference
-        reduce UE power consumption
-    Usually in UL PC is done in two ways: Conventional Power Control, and Fractional Power control.        
-    
-[Bilal Muhammad: Closed loop power control for LTE uplink (see p 13 for LTE PUSCH power control) ](https://www.diva-portal.org/smash/get/diva2:831452/FULLTEXT01.pdf)<br>
-[3GPP TS 36.213 Rel 14 - see pp 14-15 for detailed formula on LTE UL PC](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/14.06.00_60/ts_136213v140600p.pdf)<br>
-[]()<br>
-[]()<br>
-
-
-
-## 5G  
-
-[5G NR frequency bands](https://en.wikipedia.org/wiki/5G_NR_frequency_bands)<br>
-
-[5G Network Architecture White Paper v1.0 12-08-2018](http://www.gtigroup.org/d/file/Resources/rep/2018-02-22/06608ce6dbe32673ac1611359e11f794.pdf)
-
-[5G K-Sim](http://5gopenplatform.org)
-
-[5G K-SimLink](http://5gopenplatform.org/main/main.php?categoryid=06&menuid=01&groupid=00)
-
-[5G tutorial from MathWorks](http://5gopenplatform.org/main/main.php?categoryid=06&menuid=01&groupid=00)
-
 
 
 moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0).  ----- [STATS](https://location.services.mozilla.com/stats)

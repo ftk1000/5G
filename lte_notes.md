@@ -134,15 +134,13 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 
 
 
-
+        5.2.2.1 Channel quality indicator (CQI)
 
         The CQI indices and their interpretations are given in Table 5.2.2.1-2 or Table 5.2.2.1-4 for reporting CQI based on
         QPSK, 16QAM and 64QAM. The CQI indices and their interpretations are given in Table 5.2.2.1-3 for reporting CQI
         based on QPSK, 16QAM, 64QAM and 256QAM.
         
 ![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.214_Rel15_T52212_4bCQI.PNG)             
-
-
 
 []()<br>
 

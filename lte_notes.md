@@ -85,6 +85,8 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
         max RSRQ = -3 dB (one RS RE has 50% of the total power per symbol)
         min RSRQ = -19.5 dB (one RS RE has only 1% energy in RB)
 
+# LTE CQI
+
 * [LTE 4-bit CQI Table 5.2.2..1-2 in Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
 
        7.2.3 Channel Quality Indicator (CQI) definition
@@ -99,7 +101,7 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
        and transport block size corresponding to the CQI index, and occupying a group of downlink physical resource blocks termed 
        the CSI reference resource, could be received with a transport block error probability not exceeding 0.1.
        
-![Tab;e 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
+![Table 7.2.3-1 4-bit CQI Table](TS36.213_TBL_7231_4btCQI.PNG)
 
        5 Power control
             Downlink power control determines the Energy Per Resource Element (EPRE). The term resource element energy
@@ -109,8 +111,17 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
           5.1 Uplink power control 
             5.1.4.1 Dual connectivity power control Mode 1 
             5.1.4.2 Dual connectivity power control Mode 2
-       
-* []()<br>
+
+# NR 5G CQI
+* [TS38.213 Rel15 p.41 Table 5.2.2.1-2: 4-bit CQI Table](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.02.00_60/ts_138214v150200p.pdf)<br>
+
+        The CQI indices and their interpretations are given in Table 5.2.2.1-2 or Table 5.2.2.1-4 for reporting CQI based on
+        QPSK, 16QAM and 64QAM. The CQI indices and their interpretations are given in Table 5.2.2.1-3 for reporting CQI
+        based on QPSK, 16QAM, 64QAM and 256QAM.
+        
+![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.213_Rel15_T52212_4bCQI.PNG)
+
+
 []()<br>
 
 ## DL Power Control
@@ -141,6 +152,8 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 
 
 ## 5G  
+
+[5G NR frequency bands](https://en.wikipedia.org/wiki/5G_NR_frequency_bands)<br>
 
 [5G Network Architecture White Paper v1.0 12-08-2018](http://www.gtigroup.org/d/file/Resources/rep/2018-02-22/06608ce6dbe32673ac1611359e11f794.pdf)
 

@@ -113,7 +113,9 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
             5.1.4.2 Dual connectivity power control Mode 2
 
 # NR 5G CQI
-* [TS38.213 Rel15 p.41 Table 5.2.2.1-2: 4-bit CQI Table](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.02.00_60/ts_138214v150200p.pdf)<br>
+
+
+* [5G;NR;Physical layer procedures for data (3GPP TS 38.214 version 15.2.0 Release 15) p.41 Table 5.2.2.1-2: 4-bit CQI Table](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.02.00_60/ts_138214v150200p.pdf)<br>
 
         The CQI indices and their interpretations are given in Table 5.2.2.1-2 or Table 5.2.2.1-4 for reporting CQI based on
         QPSK, 16QAM and 64QAM. The CQI indices and their interpretations are given in Table 5.2.2.1-3 for reporting CQI

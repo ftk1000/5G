@@ -90,10 +90,13 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 * [LTE 4-bit CQI Table 5.2.2..1-2 in Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>
 
        7.2.3 Channel Quality Indicator (CQI) definition
-       The CQI indices and their interpretations are given in Table 7.2.3-1, Table 7.2.3-5, Table 7.2.3-6 for reporting CQI based on QPSK, 16QAM and 64QAM. 
-       The CQI indices and their interpretations are given in Table 7.2.3-2 for reporting CQI based on QPSK, 16QAM, 64QAM and 256QAM. 
-       The CQI indices and their interpretations are given in Table 7.2.3-3 for reporting CQI based on QPSK and 16QAM. 
-       The CQI indices and their interpretations are given in Table 7.2.3-4 for reporting CQI based on QPSK, 16QAM, 64QAM, 256QAM, and 1024QAM. 
+       * The CQI indices and their interpretations are given in Table 7.2.3-1, Table 7.2.3-5, Table 7.2.3-6 
+         for reporting CQI based on QPSK, 16QAM and 64QAM. 
+       * The CQI indices and their interpretations are given in Table 7.2.3-2 for reporting CQI based on QPSK, 16QAM, 
+         64QAM and 256QAM. 
+       * The CQI indices and their interpretations are given in Table 7.2.3-3 for reporting CQI based on QPSK and 16QAM. 
+       * The CQI indices and their interpretations are given in Table 7.2.3-4 for reporting CQI based on QPSK, 16QAM, 
+         64QAM, 256QAM, and 1024QAM. 
        
        the UE shall derive for each CQI value reported in uplink subframe/slot/subslot n the highest CQI index between 1 and 15 
        in Table 7.2.3-1, Table 7.2.3-2 or Table 7.2.3-4     ( Table 7.2.3-3, Table 7.2.3-5 or Table 7.2.3-6 ) 
@@ -117,11 +120,28 @@ See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399
 
 * [5G;NR;Physical layer procedures for data (3GPP TS 38.214 version 15.2.0 Release 15) p.41 Table 5.2.2.1-2: 4-bit CQI Table](https://www.etsi.org/deliver/etsi_ts/138200_138299/138214/15.02.00_60/ts_138214v150200p.pdf)<br>
 
+        5.1.3 Modulation order, target code rate, redundancy version and transport block size determination 
+         To determine the modulation order, target code rate, and transport block size(s) in the physical downlink shared 
+        channel, the UE shall first
+           - read the 5-bit modulation and coding scheme field (IMCS) in the DCI to determine the modulation order (Qm) and
+             target code rate (R) based on the procedure defined in Subclause 5.1.3.1, and
+           - read redundancy version field (rv) in the DCI to determine the redundancy version..
+        and second
+           - the UE shall use the number of layers (ʋ), the total number of allocated PRBs before rate matching (nPRB) to
+             determine to the transport block size based on the procedure defined in Subclause 5.1.3.2.
+
+![Table 5.1.3.1-2 MCS index Table 2 for PDSCH (p.18)](TS38.214_Rel15_T51312_MCSidxT2_PDSCH.PNG)             
+
+
+
+
+
         The CQI indices and their interpretations are given in Table 5.2.2.1-2 or Table 5.2.2.1-4 for reporting CQI based on
         QPSK, 16QAM and 64QAM. The CQI indices and their interpretations are given in Table 5.2.2.1-3 for reporting CQI
         based on QPSK, 16QAM, 64QAM and 256QAM.
         
-![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.213_Rel15_T52212_4bCQI.PNG)
+![Table 5.2.2.1-2 4-bit CQI Table (p.41)](TS38.214_Rel15_T52212_4bCQI.PNG)             
+
 
 
 []()<br>

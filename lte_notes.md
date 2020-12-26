@@ -151,10 +151,29 @@
       When   Mn - hysteresis  > Ms + a3offset  , start timeToTrigger timer 
       E.g.,  Mn - 2dB  > Ms + 2dB    ==>  start 320 ms timer
 
+
+
 * [3GPP TS 36.133 version 15.3.0 Release 15](https://www.etsi.org/deliver/etsi_ts/136100_136199/136133/15.03.00_60/ts_136133v150300p.pdf)<br>
 
+       Table 9.1.4-1: RSRP measurement report mapping
+         - Reporting values:                  RSRP_-17 .. RSRP_97
+         - Measurement quality value range:   [.. -156 .. -44 ]       
+![RSRP_reporting_table_36.133.Rel15_T9.1.4_1.PNG](RSRP_reporting_table_36.133.Rel15_T9.1.4_1.PNG)
+
+
+       Table 9.1.7-1: RSRQ measurement report mapping
+         - Reporting values:                  RSRQ_-30 .. RSRQ_46
+         - Measurement quality value range:   [.. -34 ..  +2.5 ]       
+![RSRQ_reporting_table_36.133.Rel15_T9.1.7_1.PNG](RSRQ_reporting_table_36.133.Rel15_T9.1.7_1.PNG)
+
+
        Table 9.1.8.4-1: Power headroom report mapping
+         - Reporting values:                  POWER_HEADROOM_0 .. POWER_HEADROOM_63
+         - Measurement quality value range:   [   -23          ..     40 ..  ]       
 ![PH_reporting_table_36.133.Rel15_T9.1.8.4_1.PNG](PH_reporting_table_36.133.Rel15_T9.1.8.4_1.PNG)<br>
+
+
+
 
 # LTE Power Control: 
 * [See Ch.5 of Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>

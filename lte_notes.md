@@ -127,6 +127,19 @@
        - Measurement gaps. Periods that the UE may use to perform measurements, i.e. when no UL and DL transmissions are scheduled.
        
 * [blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
+
+      LTE: Measurement Report
+        Direction: UE => E-UTRAN
+        Signalling Radio Bearer: SRB1
+        RLC Mode: AM
+        Logical Channel: DCCH
+        Transport Channel: UL-SCH
+        
+      The UE can be requested to perform the following types of measurements:
+        - Intra-frequency measurements: Measurements at the downlink carrier frequency (ies) of the serving cell(s).
+        - Inter-frequency measurements: Measurements at frequencies that differ from any of the downlink carrier frequency (ies) of the serving cell(s).
+        - Inter-RAT measurements of UTRA frequencies or of GERAN frequencies or of CDMA2000 HRPD or CDMA2000 1xRTT frequencies
+
 * []()<br>
 
 

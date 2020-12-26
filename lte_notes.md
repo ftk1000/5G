@@ -112,6 +112,20 @@
 * See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
 * [ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
 * [4gmobiletech: LTE Measurement Events](https://www.4gmobiletech.com/measurement-events)<br>
+
+       Measurement configuration is sent in RRC Connection Reconfiguration message. The measurement configuration includes the following parameters:        
+       - Measurement objects: The objects on which the UE shall perform the measurements, i.e. what to measure.​
+       - Reporting configurations: A list of reporting configurations which consists of:
+         - Reporting criteria: The criteria that trigger the UE to send a measurement report. This can either be periodical or a single event description.
+         - Reporting format: The quantities that the UE includes in the measurement report and associated information (e.g. number of cells to report).
+       - Measurement identities
+       - Each measurement identity links one measurement object with one reporting configuration. By configuring multiple measurement identities it 
+         is possible to link more than one measurement object to the same reporting configuration, as well as to link more than one reporting 
+         configuration to the same measurement object.
+       - Quantity configurations. The quantity configuration defines the measurement quantities and associated filtering used for all event 
+         evaluation and related reporting of that measurement type.
+       - Measurement gaps. Periods that the UE may use to perform measurements, i.e. when no UL and DL transmissions are scheduled.
+       
 * [blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
 * []()<br>
 

@@ -151,8 +151,10 @@
       When   Mn - hysteresis  > Ms + a3offset  , start timeToTrigger timer 
       E.g.,  Mn - 2dB  > Ms + 2dB    ==>  start 320 ms timer
 
+* [3GPP TS 36.133 version 15.3.0 Release 15](https://www.etsi.org/deliver/etsi_ts/136100_136199/136133/15.03.00_60/ts_136133v150300p.pdf)<br>
 
-
+       Table 9.1.8.4-1: Power headroom report mapping
+![PH_reporting_table_36.133.Rel15_T9.1.8.4_1.PNG](PH_reporting_table_36.133.Rel15_T9.1.8.4_1.PNG)<br>
 
 # LTE Power Control: 
 * [See Ch.5 of Physical layer procedures (3GPP TS 36.213 version 15.2.0 Release 15)](https://www.etsi.org/deliver/etsi_ts/136200_136299/136213/15.02.00_60/ts_136213v150200p.pdf)<br>

@@ -153,7 +153,7 @@
 
 
 
-* [3GPP TS 36.133 version 15.3.0 Release 15](https://www.etsi.org/deliver/etsi_ts/136100_136199/136133/15.03.00_60/ts_136133v150300p.pdf)<br>
+* [3GPP TS36.133 v15.3.0 Rel15; LTE E-UTRA; Requirements for support of radio resource management](https://www.etsi.org/deliver/etsi_ts/136100_136199/136133/15.03.00_60/ts_136133v150300p.pdf)<br>
 
        Table 9.1.4-1: RSRP measurement report mapping
          - Reporting values:                  RSRP_-17 .. RSRP_97

@@ -111,7 +111,7 @@
 
 * See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
 * [ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
-* [4gmobiletech: LTE Measurement Events](https://www.4gmobiletech.com/measurement-events)<br>
+* [4gmobiletech: LTE Measurement Events. Example of rrcConnectionReconfiguration message](https://www.4gmobiletech.com/measurement-events)<br>
 
        Measurement configuration is sent in RRC Connection Reconfiguration message. The measurement configuration includes the following parameters:        
        - Measurement objects: The objects on which the UE shall perform the measurements, i.e. what to measure.​
@@ -126,7 +126,7 @@
          evaluation and related reporting of that measurement type.
        - Measurement gaps. Periods that the UE may use to perform measurements, i.e. when no UL and DL transmissions are scheduled.
        
-* [blog: LTE Measurement Report](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
+* [blog: Example of LTE Measurement Report. (HAS LINKS TO OTHER EXAMPLE AS WELL)](http://howltestuffworks.blogspot.com/2011/10/measurement-report.html)<br>
 
       LTE: Measurement Report
         Direction: UE => E-UTRAN
@@ -139,6 +139,10 @@
         - Intra-frequency measurements: Measurements at the downlink carrier frequency (ies) of the serving cell(s).
         - Inter-frequency measurements: Measurements at frequencies that differ from any of the downlink carrier frequency (ies) of the serving cell(s).
         - Inter-RAT measurements of UTRA frequencies or of GERAN frequencies or of CDMA2000 HRPD or CDMA2000 1xRTT frequencies
+        
+      According to Table 9.1.4-1 (TS 36.133), RSRP of 56 = -85 ≤ RSRP < -84 dBm
+      According to Table 9.1.7-1 (TS 36.133), RSRQ of 26 = -7 ≤ RSRQ < -6.5 dB
+        
 
 * []()<br>
 

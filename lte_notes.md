@@ -144,7 +144,10 @@
       According to Table 9.1.7-1 (TS 36.133), RSRQ of 26 = -7 ≤ RSRQ < -6.5 dB
         
 
-* []()<br>
+* [YT: Example of A3 event triggering by the UE](https://www.youtube.com/watch?v=b0CVj0vuBIg)<br>
+
+     When   Mn - hysteresis  > Ms + a3offset  , start timeToTrigger timer 
+     E.g.,  Mn - 2dB  > Ms + 2dB    ==>  start 320 ms timer
 
 
 

@@ -111,6 +111,8 @@
 
 * See section [5.5.4 of 36.331](https://www.etsi.org/deliver/etsi_ts/136300_136399/136331/15.03.00_60/ts_136331v150300p.pdf) for LTE or [38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.07.00_60/ts_138331v150700p.pdf) for NR to see all events that can be configured to the UE to trigger a measurement report <br>
 * [ShareTechNote: Multi Cell - Measurement in LTE](https://www.sharetechnote.com/html/Handbook_LTE_MultiCell_Measurement_LTE.html)<br>
+![LTE_Measurement_EventPlot_01.png](LTE_Measurement_EventPlot_01.png)
+
 * [4gmobiletech: LTE Measurement Events. Example of rrcConnectionReconfiguration message](https://www.4gmobiletech.com/measurement-events)<br>
 
        Measurement configuration is sent in RRC Connection Reconfiguration message. The measurement configuration includes the following parameters:        

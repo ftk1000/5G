@@ -146,8 +146,8 @@
 
 * [YT: Example of A3 event triggering by the UE](https://www.youtube.com/watch?v=b0CVj0vuBIg)<br>
 
-     When   Mn - hysteresis  > Ms + a3offset  , start timeToTrigger timer 
-     E.g.,  Mn - 2dB  > Ms + 2dB    ==>  start 320 ms timer
+      When   Mn - hysteresis  > Ms + a3offset  , start timeToTrigger timer 
+      E.g.,  Mn - 2dB  > Ms + 2dB    ==>  start 320 ms timer
 
 
 

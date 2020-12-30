@@ -1,5 +1,9 @@
 2020.03.29
 
+# Books
+
+* [Understanding_LTE_with_MATLAB by H.Zarinkoub](http://read.pudn.com/downloads666/ebook/2699449/Understanding_LTE_with_MATLAB.pdf)<br>
+
 ## OFDMA/OFDMA/SC-FDMA
 
 [2020: YT: Iain: OFDM Waveforms](https://www.youtube.com/watch?v=F6B4Kyj2rLw)<br>

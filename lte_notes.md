@@ -42,14 +42,14 @@
 
 * Here is an good read about LTE Synchronization [techplayon](http://www.techplayon.com/pss-and-sss-lte-synchronization/).
 
-    SSS = Secondary synchronization signal (0-167)
-    PSS = Primary synchronization signal (0-2)
-    PCI = Physical Layer Cell ID (0-503)
-    
-    PCI consist of Primary Sync signal and Secondary Sync signal.
-    PCI = PSS +   3 x SSS
-    Eg, if         SSS=5 and          PSS=1, then          PCI = 1+ 3*5=16
-        
+        SSS = Secondary synchronization signal (0-167)
+        PSS = Primary synchronization signal (0-2)
+        PCI = Physical Layer Cell ID (0-503)
+
+        PCI consist of Primary Sync signal and Secondary Sync signal.
+        PCI = PSS +   3 x SSS
+        Eg, if         SSS=5 and          PSS=1, then          PCI = 1+ 3*5=16
+
 
 
 # LTE

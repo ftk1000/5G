@@ -59,7 +59,9 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
      * The Secure Element chip, an NFC chip that contains data such as the Secure Element Identifier (SEID) for secure transactions. 
      This chip is commonly found in smartphones and other NFC devices.
      
-* []()<br>
+# Other
+
+* [www.techplayon.com/5g-nr-interfaces-x2-xn-s1-ng-f1-and-e1-functions/](http://www.techplayon.com/5g-nr-interfaces-x2-xn-s1-ng-f1-and-e1-functions/)<br>
 * []()<br>
 * []()<br>
 * []()<br>

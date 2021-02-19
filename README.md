@@ -12,6 +12,46 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
 ------  [REGIONS](https://location.services.mozilla.com/stats/regions)<br>
 
 
+# Network Planning Related
+
+### LTE EARFCN (E-UTRA Absolute Radio Frequency Channel Number)
+* [ETSI TS136 521-1 V15.5.0 (2019-07), p.253 + ](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)<br>
+
+* [LTE Carrier Frequency and EARFCN](https://www.cablefree.net/wirelesstechnology/4glte/lte-carrier-frequency-earfcn/)<br>
+  - In LTE, the carrier frequency in the uplink and downlink is designated by EARFCN, which ranges between 0-65535.
+  - EARFCN uniquely identify the LTE band and carrier frequency.
+  - For example Band-1 and Band-4 can have same Rx frequency 2110-2170 MHz,  but their EARFCN are different.
+  - EARFCN is independent of channel bandwidth.
+  - The relation between EARFCN and its uplink/downlink carrier frequency is given by the equation below
+     -- Fdownlink=FDLLow+0.1(NDL−NDLOffset)Fdownlink=FDLLow+0.1(NDL-NDLOffset)
+     -- Fuplink=FULLow+0.1(NUL−NULOffset)
+     -- NDL = downlink EARFCN = dl_earfcn
+     -- NUL = uplink EARFCN   = ul_earfcn
+     -- NDLoffset = offset used to calculate downlink EARFCN
+     -- NULoffset = offset used to calculate uplink EARFCN
+
+
+* [LTE EARFCN Radio Channel Numbers](https://www.electronics-notes.com/articles/connectivity/4g-lte-long-term-evolution/lte-earfcn-radio-channel-numbers.php)<br>
+    - EARFCN number is within range 0 to 65535 .
+
+### PCI = Physical Cell ID
+* NR has 1008 PCIwhich are organised into 336 groups of 3
+* LTE has 504 PCIwhich are organised into 168 groups of 3
+* Requirements for PCI planning: Collision Free (UE centric - no cell) and Confusion Free (Cell centric - No neighbor confusion)
+* [Physical Cell ID (PCI)](https://www.5gworldpro.com/blog/2020/11/11/what-is-difference-between-pci-in-4g-lte-and-pci-in-5g-nr/)<br>
+    - one of the most important cell’s identifier in the wireless network of 4G and 5G system.
+    - It is PHY cell id which is required for DL synchronization.
+    - In LTE:  PCI = (3 × SSS) + PSS
+      -- PSS has 3 values 0,1 and 2 and is created using Zad-off Chu sequence
+      -- PSS helps to accomplish slot and symbol synchronization in the time domain.
+      -- SSS has 168 values 0 to 167 and is produced using concatenation of 2 m-sequences (max length sequence)
+      -- SSS aids to achieve radio frame synchronization
+      -- E.g., PCI = (3 * 167) + 2 = 503, so PCI values will vary from 0 to 503 LTE supports 504 unique PCIs
+
+* []()<br>
+* []()<br>
+* 
+
 # Subscriber Identification
 
 * [IMSI: International mobile subscriber identity](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)<br>

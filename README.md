@@ -60,6 +60,14 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
 * []()<br>
 * 
 
+# Carrier Aggregarion Related
+* [5.4.2A.1	Channel bandwidths per operating band for CA (see TS 36.521-1-V15.5.0 p 161](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)<br>
+    - See Tables starting from    Table 5.4.2A.1-1: E-UTRA CA configurations and bandwidth combination sets defined for intra-band
+contiguous CA 
+
+* []()
+* 
+
 # Subscriber Identification
 
 * [IMSI: International mobile subscriber identity](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)<br>

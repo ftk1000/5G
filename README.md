@@ -51,6 +51,10 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
       -- SSS has 168 values 0 to 167 and is produced using concatenation of 2 m-sequences (max length sequence)
       -- SSS aids to achieve radio frame synchronization
       -- E.g., PCI = (3 * 167) + 2 = 503, so PCI values will vary from 0 to 503 LTE supports 504 unique PCIs
+    - UE should not be able to simulteneously receive multiple PCI with equal 'PCI mode 3' values (PSS constraint)
+    - UE should not be able to simulteneously receive multiple PCI with equal 'PCI mode 4' values (DMRS constraint)
+    - UE should not be able to simulteneously receive multiple PCI with equal 'PCI mode 30' values (PUSCH DMRS constraint when Transform Precoding is enabled).
+    - Satisfying 'PCI mode 3' rule is sufficient condition for satisfying 'PCI mode 30' rule.
 
 * []()<br>
 * []()<br>

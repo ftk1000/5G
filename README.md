@@ -17,6 +17,9 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
 ### LTE EARFCN (E-UTRA Absolute Radio Frequency Channel Number)
 * [ETSI TS136 521-1 V15.5.0 (2019-07), p.253 + ](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)<br>
 ![EARFCN_001.JPG](EARFCN_001.JPG)
+![EARFCN_002.JPG](EARFCN_002.JPG)
+![EARFCN_003.JPG](EARFCN_003.JPG)
+
 
 * [LTE Carrier Frequency and EARFCN](https://www.cablefree.net/wirelesstechnology/4glte/lte-carrier-frequency-earfcn/)<br>
   - In LTE, the carrier frequency in the uplink and downlink is designated by EARFCN, which ranges between 0-65535.

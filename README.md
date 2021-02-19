@@ -27,12 +27,12 @@ moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0). 
   - For example Band-1 and Band-4 can have same Rx frequency 2110-2170 MHz,  but their EARFCN are different.
   - EARFCN is independent of channel bandwidth.
   - The relation between EARFCN and its uplink/downlink carrier frequency is given by the equation below
-     -- Fdownlink=FDLLow+0.1(NDL−NDLOffset)Fdownlink=FDLLow+0.1(NDL-NDLOffset)
-     -- Fuplink=FULLow+0.1(NUL−NULOffset)
-     -- NDL = downlink EARFCN = dl_earfcn
-     -- NUL = uplink EARFCN   = ul_earfcn
-     -- NDLoffset = offset used to calculate downlink EARFCN
-     -- NULoffset = offset used to calculate uplink EARFCN
+  -      -- Fdownlink=FDLLow+0.1(NDL−NDLOffset)Fdownlink=FDLLow+0.1(NDL-NDLOffset)
+  -      -- Fuplink=FULLow+0.1(NUL−NULOffset)
+  -      -- NDL = downlink EARFCN = dl_earfcn
+  -      -- NUL = uplink EARFCN   = ul_earfcn
+  -      -- NDLoffset = offset used to calculate downlink EARFCN
+  -      -- NULoffset = offset used to calculate uplink EARFCN
 
 
 * [LTE EARFCN Radio Channel Numbers](https://www.electronics-notes.com/articles/connectivity/4g-lte-long-term-evolution/lte-earfcn-radio-channel-numbers.php)<br>

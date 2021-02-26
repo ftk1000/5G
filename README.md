@@ -11,6 +11,11 @@
 moz a loc service. [MAP](https://location.services.mozilla.com/map#2/35.0/9.0).  ----- [STATS](https://location.services.mozilla.com/stats)
 ------  [REGIONS](https://location.services.mozilla.com/stats/regions)<br>
 
+# [PLMN =  Public Land Mobile Network](https://ltehacks.com/viewtopic.php?t=447)
+* The PLMN consists of a series of numbers that identifies the **MCC (Mobile Country Code)** and <br>
+* the **MNC (Mobile Network Code)** which is tied to a specific network carrier<br>
+* In the USA (311), **Verizon PLMN** numbers include 311-480,..., 311-489 and [more](https://ltehacks.com/viewtopic.php?t=447). Hence Verizon MNC numbers are 480,481,...<br>
+
 
 # Network Planning Related
 

@@ -5,29 +5,29 @@
 * 5 Frequency bands and channel arrangement p 133+
 * 5.2 Operating bands p 133+
 * Table 5.2-1: E-UTRA operating bands p 133+
-   - E-UTRA Operating Bands: n1 - n76 
-   - UL operating band (BS receive, UE transmit): F_{UL_{low}} – F_{UL_{high}}
-   - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}
-   - Duplex Mode
+  - E-UTRA Operating Bands: n1 - n76 
+  - UL operating band (BS receive, UE transmit): F_{UL_{low}} – F_{UL_{high}}
+  - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}
+  - Duplex Mode
     
 * 5.4.3 Channel raster  p.251+
   - The channel raster is 100 kHz for all bands, which means that the carrier centre frequency must be an integer multiple of 100 kHz.
       
 * 5.4.3A Channel raster for CA
-      For carrier aggregation the channel raster is 100 kHz for all bands, which means that the carrier centre frequency must  
+  - For carrier aggregation the channel raster is 100 kHz for all bands, which means that the carrier centre frequency must  
       be an integer multiple of 100 kHz.
       
 * 5.4.3F Channel raster for UE category NB1 and NB2
-      Channel raster for category NB1 and NB2 in-band, guard-band and standalone operation is 100 kHz.
+  - Channel raster for category NB1 and NB2 in-band, guard-band and standalone operation is 100 kHz.
       
 * 5.4.4 Carrier frequency and EARFCN 
-      The carrier frequency in the uplink and downlink is designated by the E-UTRA Absolute Radio Frequency Channel
+  - The carrier frequency in the uplink and downlink is designated by the E-UTRA Absolute Radio Frequency Channel
       Number (EARFCN) in the range 0 - 65535. The relation between EARFCN and the carrier frequency in MHz for the
       downlink is given by the following equation, where FDL_low and NOffs-DL are given in Table 5.4.4-1 and NDL is the
       downlink EARFCN.
 $$F_{DL} = F_{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL})$$
 
-      The relation between EARFCN and the carrier frequency in MHz for the uplink is given by the following equation
+   - The relation between EARFCN and the carrier frequency in MHz for the uplink is given by the following equation
       where FUL_low and NOffs-UL are given in Table 5.4.4-1 and NUL is the uplink EARFCN.
 $$F_{UL} = F_{UL_{low}} + 0.1(N_{UL} – N_{Offs-UL})$$
 

@@ -4,7 +4,7 @@
 
 * 5 Frequency bands and channel arrangement p 133+
 * 5.2 Operating bands p 133+
-* Table 5.2-1: E-UTRA operating bands p 133+
+* **Table 5.2-1: E-UTRA operating bands** p 133+
   - E-UTRA Operating Bands: n1 - n76 
   - UL operating band (BS receive, UE transmit): F_{UL_{low}} – F_{UL_{high}}
   - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}

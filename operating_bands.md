@@ -11,7 +11,7 @@
    - Duplex Mode
     
 * 5.4.3 Channel raster  p.251+
- - The channel raster is 100 kHz for all bands, which means that the carrier centre frequency must be an integer multiple of 100 kHz.
+  - The channel raster is 100 kHz for all bands, which means that the carrier centre frequency must be an integer multiple of 100 kHz.
       
 * 5.4.3A Channel raster for CA
       For carrier aggregation the channel raster is 100 kHz for all bands, which means that the carrier centre frequency must  

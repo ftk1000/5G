@@ -1,5 +1,8 @@
 # Operating Bands
     * EARFCN = E-UTRA Absolute Radio Frequency Channel Number
+    * ARFCN = Absolute Radio Frequency Channel Number
+    * nr_serving_arfcn
+    * end_e**arfcn**_dl
  
 ### LTE ts36.521-1 v 15.5.0 2019-07 [LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); User Equipment (UE) conformance specification; Radio transmission and reception; Part 1: Conformance testing (3GPP TS 36.521-1 version 15.5.0 Release 15) - ETSI TS 136 521-1 V15.5.0 (2019-07)](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)
 
@@ -52,6 +55,8 @@ $$F_{UL} = F_{UL_{low}} + 0.1(N_{UL} – N_{Offs-UL})$$
 $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 
 
+
+
 ---
 
 ### NR FR2, ts38 521-2 V16.4.0, 2020-10  [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
@@ -86,6 +91,9 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
       [2016667...3279165] on the global frequency raster. The relation between the NR-ARFCN and the RF reference
       frequency FREF in MHz is given by the following equation, where FREF-Offs and NRef-Offs are given in 
       Table 5.4.2.1-1 and NREF is the NR-ARFCN:        F_{REF} = F_{REF-Offs} + ΔF_{Global} (N_{REF} – N_{REF-Offs})
+
+      F_{REF}    =    24250.08 + (60/1000) (  N_{REF} – 2016667  )
+      E.g., if N_{REF} = 2,073,331,   then F_{REF} = 27649.92 MHz
 
 * **Table 5.4.2.1-1: NR-ARFCN parameters for the global frequency raster** p.32
 

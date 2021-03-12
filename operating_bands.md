@@ -1,8 +1,20 @@
 # Operating Bands
     * EARFCN = E-UTRA Absolute Radio Frequency Channel Number
     * ARFCN = Absolute Radio Frequency Channel Number
+      * nr_last_measurement_arfcn
+      * end_earfcn_dl
+      * nr_serving_arfcn
+      
+    * nr_last_measurement_arfcn
+      nr_last_measurement_cell
+      nr_last_measurement_pci
     * nr_serving_arfcn
-    * end_e**arfcn**_dl
+      nr_serving_cell
+      nr_serving_pci
+    * end_earfcn_dl
+    * nr_rsrq_db
+      nr_dl_sinr_db
+      nr_rsrp_dbm
  
 ### LTE ts36.521-1 v 15.5.0 2019-07 [LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); User Equipment (UE) conformance specification; Radio transmission and reception; Part 1: Conformance testing (3GPP TS 36.521-1 version 15.5.0 Release 15) - ETSI TS 136 521-1 V15.5.0 (2019-07)](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)
 

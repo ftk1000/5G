@@ -55,12 +55,33 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 
 ### NR FR2, ts38 521-2 V16.4.0, 2020-10  [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
 
+* 5 Operating bands and channel arrangement p 24+
+* 5.1 General p.24+
 
-
-* [5 Operating bands and channel arrangement p23+](3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
       Freq.Range      Freq Range in MHz            Bands
       - FR1:          410 MHz -  7,125 MHz        n1 -  n86
       - FR2:       24,250 MHz - 52,600 MHz      n257 - n261
+      
+* 5.2 Operating bands p 24++
+* **Table 5.2-1: NR operating bands in FR2** p 24+
+  - Operating Bands: n257 - n261 
+  - UL operating band (BS receive, UE transmit): F_{UL_{low}} – F_{UL_{high}}
+  - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}
+  - Duplex Mode: TDD
+  
+      band [UL oper band]        [DL oper band]        [Duplex Mode]
+      n257 26500 MHz – 29500 MHz 26500 MHz – 29500 MHz TDD
+      n258 24250 MHz – 27500 MHz 24250 MHz – 27500 MHz TDD
+      n260 37000 MHz – 40000 MHz 37000 MHz – 40000 MHz TDD
+      n261 27500 MHz – 28350 MHz 27500 MHz – 28350 MHz TDD
+    
+
+
+
+
+
+
+
 * [5.2 Operating Bands. Table 5.2-1 NR Oper banbds in FR2  p.24+](3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
   * Table 5.3A.4-1: CA bandwidth classes p.31      - NR CA bw classes: A-Q
   * 5.5A Configurations for CA p.35+

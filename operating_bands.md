@@ -75,11 +75,21 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
         - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}
   
     
+* 5.2A.1 Intra-band CA p24+
 
+* 5.2D Operating bands for UL MIMO p26+
 
+* **5.4.2.1 NR-ARFCN and channel raster** p32+
 
+      RF reference frequency is designated by an NR Absolute Radio Frequency Channel Number (NR-ARFCN) in the range
+      [2016667...3279165] on the global frequency raster. The relation between the NR-ARFCN and the RF reference
+      frequency FREF in MHz is given by the following equation, where FREF-Offs and NRef-Offs are given in Table 5.4.2.1-1 and
+      NREF is the NR-ARFCN:        F_{REF} = F_{REF-Offs} + ΔF_{Global} (N_{REF} – N_{REF-Offs})
 
+* **Table 5.4.2.1-1: NR-ARFCN parameters for the global frequency raster** p.32
 
+      Frequency range (MHz)      ΔFGlobal (kHz)       FREF-Offs (MHz)           NREF-Offs               Range of NREF
+      24250 – 100000             60                   24250.08                  2016667                 2016667 – 3279165 
 
 
 * [5.2 Operating Bands. Table 5.2-1 NR Oper banbds in FR2  p.24+](3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)

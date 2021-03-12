@@ -83,8 +83,8 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 
       RF reference frequency is designated by an NR Absolute Radio Frequency Channel Number (NR-ARFCN) in the range
       [2016667...3279165] on the global frequency raster. The relation between the NR-ARFCN and the RF reference
-      frequency FREF in MHz is given by the following equation, where FREF-Offs and NRef-Offs are given in Table 5.4.2.1-1 and
-      NREF is the NR-ARFCN:        F_{REF} = F_{REF-Offs} + ΔF_{Global} (N_{REF} – N_{REF-Offs})
+      frequency FREF in MHz is given by the following equation, where FREF-Offs and NRef-Offs are given in 
+      Table 5.4.2.1-1 and NREF is the NR-ARFCN:        F_{REF} = F_{REF-Offs} + ΔF_{Global} (N_{REF} – N_{REF-Offs})
 
 * **Table 5.4.2.1-1: NR-ARFCN parameters for the global frequency raster** p.32
 

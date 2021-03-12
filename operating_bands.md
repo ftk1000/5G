@@ -51,40 +51,12 @@ $$F_{UL} = F_{UL_{low}} + 0.1(N_{UL} – N_{Offs-UL})$$
 $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 
 
+---
 
- 
-===========================
-
-![image](https://user-images.githubusercontent.com/8783973/110927120-dc01dd80-82ea-11eb-89cc-ba4deb33d6e4.png)
-
-![]()
-![]()
-![]()
-
-
-# Operating Bands NR FR1 (450 MHz -  6,000 MHz      Bands n1 - n86)
-* See section  [5.2 OPERATING Bands p.27+ of ts38.521.01_v15.02](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852101/15.02.00_60/ts_13852101v150200p.pdf)
-      Freq.Range      Freq Range in MHz          Bands
-      - FR1:          450 MHz -  6,000 MHz      n1 - n86
-      - FR2:       24,250 MHz - 52,600 MHz
-      
-![]()
-![]()
-![]()
-
-* [5.3.2 Maximum transmission bandwidth configuration See p30+](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852101/15.02.00_60/ts_13852101v150200p.pdf)
-
-
-# Operating Bands NR FR2 (FR2: 24,250 MHz - 52,600 MHz  Bands )
-* [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 15.3.0 Release 15) ](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/15.03.00_60/ts_13852102v150300p.pdf)
-* See section  [5.2 OPERATING Bands p.27+ of ts38.521.01_v15.02](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/15.03.00_60/ts_13852102v150300p.pdf)
-      Freq.Range      Freq Range in MHz          Bands
-      - FR1:          450 MHz -  6,000 MHz      n1 - n86
-      - FR2:       24,250 MHz - 52,600 MHz
+### NR FR2, ts38 521-2 V16.4.0, 2020-10  [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
 
 
 
-# [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
 * [5 Operating bands and channel arrangement p23+](3GPP TS 38.521-2 version 16.4.0 Release 16)](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/16.04.00_60/ts_13852102v160400p.pdf)
       Freq.Range      Freq Range in MHz            Bands
       - FR1:          410 MHz -  7,125 MHz        n1 -  n86
@@ -97,4 +69,38 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 ![]()
 
 * [5.3.2 Maximum transmission bandwidth configuration See p30+](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852101/15.02.00_60/ts_13852101v150200p.pdf)
+
+
+---
+
+
+![image](https://user-images.githubusercontent.com/8783973/110927120-dc01dd80-82ea-11eb-89cc-ba4deb33d6e4.png)
+---
+![]()
+![]()
+![]()
+---
+
+
+### Operating Bands NR FR1 (450 MHz -  6,000 MHz      Bands n1 - n86)
+* See section  [5.2 OPERATING Bands p.27+ of ts38.521.01_v15.02](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852101/15.02.00_60/ts_13852101v150200p.pdf)
+      Freq.Range      Freq Range in MHz          Bands
+      - FR1:          450 MHz -  6,000 MHz      n1 - n86
+      - FR2:       24,250 MHz - 52,600 MHz
+      
+![]()
+![]()
+![]()
+
+* [5.3.2 Maximum transmission bandwidth configuration See p30+](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852101/15.02.00_60/ts_13852101v150200p.pdf)
+
+
+### Operating Bands NR FR2 (FR2: 24,250 MHz - 52,600 MHz  Bands )
+* [5G;NR; User Equipment (UE) conformance specification; Radio transmission and reception; Part 2: Range 2 standalone (3GPP TS 38.521-2 version 15.3.0 Release 15) ](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/15.03.00_60/ts_13852102v150300p.pdf)
+* See section  [5.2 OPERATING Bands p.27+ of ts38.521.01_v15.02](https://www.etsi.org/deliver/etsi_ts/138500_138599/13852102/15.03.00_60/ts_13852102v150300p.pdf)
+      Freq.Range      Freq Range in MHz          Bands
+      - FR1:          450 MHz -  6,000 MHz      n1 - n86
+      - FR2:       24,250 MHz - 52,600 MHz
+
+
 

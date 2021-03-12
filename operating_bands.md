@@ -1,6 +1,6 @@
 # Operating Bands
 
-## LTE ts36.521-1 v 15.5.0 2019-07 [LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); User Equipment (UE) conformance specification; Radio transmission and reception; Part 1: Conformance testing (3GPP TS 36.521-1 version 15.5.0 Release 15) - ETSI TS 136 521-1 V15.5.0 (2019-07)](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)
+### LTE ts36.521-1 v 15.5.0 2019-07 [LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); User Equipment (UE) conformance specification; Radio transmission and reception; Part 1: Conformance testing (3GPP TS 36.521-1 version 15.5.0 Release 15) - ETSI TS 136 521-1 V15.5.0 (2019-07)](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)
 
 * 5 Frequency bands and channel arrangement p 133+
 * 5.2 Operating bands p 133+

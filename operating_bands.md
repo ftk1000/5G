@@ -69,11 +69,11 @@ $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
   - DL operating band (BS transmit, UE receive): F_{DL_{low}} – F_{DL_{high}}
   - Duplex Mode: TDD
   
-      band [UL oper band]        [DL oper band]        [Duplex Mode]
-      n257 26500 MHz – 29500 MHz 26500 MHz – 29500 MHz TDD
-      n258 24250 MHz – 27500 MHz 24250 MHz – 27500 MHz TDD
-      n260 37000 MHz – 40000 MHz 37000 MHz – 40000 MHz TDD
-      n261 27500 MHz – 28350 MHz 27500 MHz – 28350 MHz TDD
+        band [UL oper band]        [DL oper band]        [Duplex Mode]
+        n257 26500 MHz – 29500 MHz 26500 MHz – 29500 MHz TDD
+        n258 24250 MHz – 27500 MHz 24250 MHz – 27500 MHz TDD
+        n260 37000 MHz – 40000 MHz 37000 MHz – 40000 MHz TDD
+        n261 27500 MHz – 28350 MHz 27500 MHz – 28350 MHz TDD
     
 
 

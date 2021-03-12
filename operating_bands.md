@@ -31,8 +31,12 @@ $$F_{DL} = F_{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL})$$
       where FUL_low and NOffs-UL are given in Table 5.4.4-1 and NUL is the uplink EARFCN.
 $$F_{UL} = F_{UL_{low}} + 0.1(N_{UL} – N_{Offs-UL})$$
 
-* [Table 5.4.4-1: E-UTRA channel numbers p 251+](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf) 
+* [Table 5.4.4-1: E-UTRA channel numbers p 252+](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf) 
   * bands n1-n76 (see python converstion code here)[]
+  * LTE EARFCN (E-UTRA Absolute Radio Frequency Channel Number)
+![EARFCN_001.JPG](EARFCN_001.JPG)
+![EARFCN_002.JPG](EARFCN_002.JPG)
+![EARFCN_003.JPG](EARFCN_003.JPG)
 
 * Section **5.4.4F Carrier frequency and EARFCN for category NB1 and NB2** p 254+
 * 
@@ -41,13 +45,14 @@ $$F_{UL} = F_{UL_{low}} + 0.1(N_{UL} – N_{Offs-UL})$$
     EARFCN in the range {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,-0.5,0,1,2,3,4,5,6,7,8,9}. The relation between EARFCN, Offset of
     category NB1/NB2 Channel Number to EARFCN and the carrier frequency in MHz for the downlink is given by the
     following equation, where FDL is the downlink carrier frequency of category NB1/NB2, FDL_low and NOffs-DL are given in
-    table 5.2-1, NDL is the downlink EARFCN, MDL is the Offset of category NB1/NB2 Channel Number to downlink
+    **TABLE 5.2-1**, NDL is the downlink EARFCN, MDL is the Offset of category NB1/NB2 Channel Number to downlink
     EARFCN.
 
 $$F_{DL} = F{DL_{low}} + 0.1(N_{DL} – N_{Offs-DL}) + 0.0025*(2M_{DL}+1)$$
 
-* See section  [5.2 OPERATING Bands p.134+ of ts36.521.01_v15.05](https://www.etsi.org/deliver/etsi_ts/136500_136599/13652101/15.05.00_60/ts_13652101v150500p.pdf)
 
+
+ 
 ===========================
 
 ![image](https://user-images.githubusercontent.com/8783973/110927120-dc01dd80-82ea-11eb-89cc-ba4deb33d6e4.png)

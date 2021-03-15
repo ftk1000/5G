@@ -1,6 +1,8 @@
 2020.03.29
 
 
+# Energy Efficiency
+* [Energy Efficiency in Wireless Networks via Fractional Programming Theory, Alessio Zappone; Eduard Jorswieck](https://ieeexplore.ieee.org/document/8187084)  or [free summary is here](https://www.nowpublishers.com/article/DownloadSummary/CIT-088)
 
 # Operators, Spectrum
 
